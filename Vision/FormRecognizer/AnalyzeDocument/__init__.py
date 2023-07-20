@@ -23,7 +23,8 @@ def get_fields(result):
         kvp = {}
         for kv_pair in doc.fields.items():
             if kv_pair[1].value_type == "string":
-                kvp[kv_pair[0]] = kv_pair[1].content
+                #kvp[kv_pair[0]] = kv_pair[1].content
+                kvp[kv_pair[0]] = str(kv_pair[1].content) # この部分
             elif kv_pair[1].value_type == "list":
                 line_items = []
                 items = {}

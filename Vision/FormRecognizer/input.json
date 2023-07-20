@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "recordId": "record1",
+            "data": {
+                "model": "train-receipt-model-v1",
+                "formUrl": "https://storagelinktech.blob.core.windows.net/data/5_14%20%E7%86%8A%E6%9C%AC%E2%86%92%E5%BA%83%E5%B3%B6.pdf",
+                "formSasToken": "?sp=r&st=2023-07-19T09:34:44Z&se=2023-07-19T17:34:44Z&spr=https&sv=2022-11-02&sr=b&sig=OvOQ4Ycc22D79cfTm%2FXp9xMM2JKt2tsnszGTWJIIXho%3D"
+            }
+        }
+    ]
+}
